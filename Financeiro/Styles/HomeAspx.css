@@ -1,0 +1,67 @@
+/*		Remove Guters		*/
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+	
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+
+.c_Form1
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+#Form1_body
+{
+	background-color: #F5F7F8;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_LayoutContainer1
+{
+	background-color: Transparent;
+	background-size: auto;
+	cursor: inherit;
+}
+
+.c_LayoutRow1
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 10px !important;
+}
+
+.c_LayoutCol1
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 5px 10px !important;
+}

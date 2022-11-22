@@ -1,0 +1,147 @@
+:root {
+	--sidebarMinimalWidth: 0px;
+	--sidebarWidth: 0px;
+}
+
+.gvLayoutContainer {
+	z-index: 9997;
+}
+
+.gvLayoutContainer.container-fluid {
+	max-width: calc(100% - var(--sidebarMinimalWidth));
+	margin-left: var(--sidebarMinimalWidth);
+}
+
+@media (min-width: 768px) {
+	.gvLayoutContainer:not(.gvFull) {
+		margin-left: var(--sidebarWidth);
+		width: calc(100% - var(--sidebarWidth));
+	}
+	.gvLayoutContainer:not(.gvFull).container {
+		max-width: calc(100% - var(--sidebarWidth));
+	}
+}
+
+.gvFooter {
+	width: calc(100% - var(--sidebarMinimalWidth));
+	margin-left: var(--sidebarMinimalWidth);
+}
+
+.gvFixedFooter {
+	position: fixed;
+	bottom: 0;
+	z-index: 9997;
+}
+
+@media (min-width: 768px) {
+	.gvFooter.gvFooterSidebar:not(.gvFull) {
+		width: calc(100% - var(--sidebarWidth));
+		margin-left: var(--sidebarWidth);
+	}
+}
+
+/*
+Media query for XS resolution
+*/
+@media (max-width: 768px) {
+	.gvFooter, .gvFooter.gvFooterSidebar.gvFixedFooter {
+		width: calc(100% - var(--sidebarMinimalWidth));
+		margin-left: var(--sidebarMinimalWidth);
+	}
+}
+
+.gvHeader {
+	width: calc(100% - var(--sidebarMinimalWidth));
+	margin-left: var(--sidebarMinimalWidth);
+	box-shadow: 0px 1px 5px rgb(0 0 0 / 20%);
+}
+
+.gvFixedHeader {
+	position: fixed;
+	top: 0;
+	z-index: 9997;
+	box-shadow: 0px 1px 5px rgb(0 0 0 / 20%);
+}
+
+@media (min-width: 768px) {
+	.gvHeader.gvHeaderSidebar:not(.gvFull) {
+		width: calc(100% - var(--sidebarWidth));
+		margin-left: var(--sidebarWidth);
+	}
+}
+
+.gvSidebar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	box-shadow: 0px 1px 5px rgb(0 0 0 / 20%);
+	overflow: auto !important;
+	overflow-x: hidden !important;
+}
+
+.gvSidebar:not(.auto) {
+	width: var(--sidebarMinimalWidth);
+}
+
+.gvSidebar.auto, .gvSidebar.opened {
+	width: var(--sidebarWidth);
+}
+
+/*
+Media query for XS resolution
+*/
+@media (max-width: 768px) {
+	.gvSidebar:not(.opened) {
+		width: var(--sidebarMinimalWidth);
+	}
+}
+
+.gvSidebar.closed {
+	width: var(--sidebarMinimalWidth);
+}
+
+.gvSidebar::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.3); /* color of the scroll thumb */
+	border-radius: 3px; /* roundness of the scroll thumb */
+}
+
+.gvSidebar::-webkit-scrollbar-track {
+	background: transparent; /* color of the tracking area */
+}
+
+.gvSidebar::-webkit-scrollbar {
+	width: 10px; /* width of the entire scrollbar */
+}
+
+.mCustomScrollBox {
+	outline: none;
+}
+
+-webkit-scrollbar {
+	width: 100px;
+	background: #e3e0d6;
+}
+
+.gvOverlay {
+	visibility: hidden;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 9998;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	transition: opacity 400ms linear, visibility 400ms linear;
+}
+
+/*
+Media query for XS resolution
+*/
+@media (max-width: 768px) {
+	.gvOverlay.active {
+		visibility: visible;
+		opacity: 1;
+	}
+}

@@ -1,0 +1,111 @@
+/* PanelBar style: */ 
+
+.RadPanelBar_Bootstrap.panelbar-default {
+    outline: none;
+    border: none !important;
+    background: #FFFFFF !important;
+    color: #292828;
+    padding: 16px;
+	font-family: "Segoe UI";
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpRootLink .rpText, .RadPanelBar_Bootstrap.panelbar-default .rpHeaderTemplate {
+    font-size: 16px;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpText::before {
+	color: inherit;
+}
+.RadPanelBar.panelbar-default .rpRootGroup, .RadPanelBar .rpGroup {
+    background-color: transparent;
+    border-radius: 0px;
+	color:inherit;
+    overflow: hidden;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpExpandHandle{
+    width: 40px;
+    height: 20px;
+    border: none;
+    top: 20%;
+    right: 0px;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpLink {
+    line-height:30px;
+    height: auto;
+    border: none !important;
+	color: #337AB7;
+}
+.RadAutoCompleteBox.panelbar-default .p-icon,
+.RadCloudUpload.panelbar-default .p-icon, 
+.RadComboBox.panelbar-default .p-icon,
+.RadComboBoxDropDown.panelbar-default .p-icon,
+.RadDropDownList.panelbar-default .p-icon,
+.RadPanelBar.panelbar-default .rpExpandHandle .p-icon,
+.RadScheduler.panelbar-default .p-icon,
+.RadRotator.panelbar-default .p-icon,
+.RadSpreadsheet.panelbar-default .p-icon {
+    height: inherit;
+    width: inherit;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpRootLink {
+    border:none;
+    color: inherit;
+    background-color: inherit !important;
+    background-image: inherit;
+    border-radius: 4px;
+    margin: 0px 0px 0px 0px;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpGroup .rpItem .rpLink
+.RadPanelBar_Bootstrap.panelbar-default .rpGroup .rpItem .rpHeaderTemplate {
+    padding-left: 15px;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpRootLink .rpExpandHandle.rpHovered {
+    border: none !important;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpRootLink.rpSelected .rpExpandHandle.rpHovered {
+    border: none !important;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpRootGroup 
+.RadPanelBar_Bootstrap.panelbar-default .rpGroup {
+    margin: 0px 0px 0px 0px;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpRootLink.rpSelected,
+.RadPanelBar_Bootstrap.panelbar-default .rpLink.rpSelected {
+    border:none !important;
+    color: #337AB7 !important;
+    background-color: #FFFFFF !important;
+    background-image: linear-gradient(#337AB750,#337AB750);
+    border-radius: 4px;
+	box-shadow: none;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpLink.rpHovered,
+.RadPanelBar_Bootstrap.panelbar-default .rpRootLink.rpHovered {
+    border:none !important;
+	color:#337AB7 !important;
+	background-color: #FFFFFF !important;
+    background-image:linear-gradient(#337AB750,#337AB750);
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpRootLink.rpSelected.rpRootLink.rpHovered,
+.RadPanelBar_Bootstrap.panelbar-default .rpLink.rpSelected.rpLink.rpHovered {
+    border:none !important;
+    background-image:linear-gradient(#337AB750,#337AB750);
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpLink.rpExpandable.rpExpanded {
+    color: #337AB7 !important;
+	background-color: #FFFFFF !important;
+    background-image: linear-gradient(#337AB750,#337AB750);
+    box-shadow: none;
+	border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpSlide {
+    width: 100%;
+    border-bottom-left-radius: 0.0rem;
+    border-bottom-right-radius: 0.0rem;
+    top: -1px;
+	background-color: #F7F7F7;
+	color: #333333;
+}
+.RadPanelBar_Bootstrap.panelbar-default .rpLink.rpHovered .rpText::before,
+.RadPanelBar_Bootstrap.panelbar-default .rpRootLink.rpHovered .rpText::before,
+.RadPanelBar_Bootstrap.panelbar-default .rpRootLink.rpSelected .rpText::before {
+	color:inherit;
+}

@@ -1,0 +1,37 @@
+/* ComboBox style: */ 
+
+.RadComboBox_Bootstrap .rcbInner {
+	height:100%;
+}
+
+.RadComboBox_Bootstrap .rcbActionButton {
+	height: auto;
+}
+
+.RadComboBox_Bootstrap .rcbInner .rcbInput {
+	height:-webkit-fill-available; 
+}
+
+.RadComboBoxDropDown_Bootstrap {
+	height: auto !important;
+	max-height: 200px;
+}
+
+.RadComboBoxDropDown_Bootstrap .rcbScroll {
+	height:auto !important;
+	max-height: 200px;
+}
+
+.RadComboBoxDropDown_Bootstrap .rcbList {
+	height: auto;
+}
+
+.RadComboBoxDropDown_Bootstrap .rcbItem {
+	padding: 9px 12px;
+	font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial;
+}
+
+.RadComboBoxDropDown_Bootstrap .rcbHovered {
+	padding: 9px 12px;
+	font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Detalhes de Conta</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Detalhes de Conta</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_CONTA</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>Treinamento</td></tr>
+      <tr><th>Tabela Básica: </th><td>TB_CONTA</td></tr>
+      <tr><th>Provider: </th><td>TB_CONTA</td></tr>
+      <tr><th>Index: </th><td>PK_TB_CONTA</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox_CT_NOME</td></tr>
+      <tr><th>Campo Relacionado: </th><td>CT_NOME</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(CT_NOME))}{ServerValidation =(CheckNotEmpty(CT_NOME))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Nome da conta não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>GC_ID</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(GC_ID))}{ServerValidation =(CheckNotEmpty(GC_ID))}</td></tr>	
+      <tr><th>Mensagem: </th><td>ID do Grupo não pode ser vazio!</td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

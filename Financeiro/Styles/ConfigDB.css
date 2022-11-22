@@ -1,0 +1,641 @@
+/*		Remove Guters		*/
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+	
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+
+.c_Form1
+{
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+#Form1_body
+{
+	background-color: #F5F7F8;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_LayoutContainer1
+{
+	background-color: Transparent;
+	background-size: auto;
+	cursor: inherit;
+}
+
+.c_LayoutRow2
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 40px 10px 10px 10px !important;
+}
+
+.c_LayoutCol12
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 0px !important;
+}
+
+.c_LayoutRow1
+{
+	background-color: #FCFCFC;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	overflow: hidden;
+	padding: 0px !important;
+}
+
+.c_LayoutCol11
+{
+	background-color: #337AB7;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 12px 20px 12px 20px !important;
+}
+
+.c_labModuleTitle
+{
+	font-family: 'Segoe UI';
+	font-size: 20px;
+	font-weight: 500;
+	font-weight: 500;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #FFFFFF;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_LayoutCol13
+{
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 20px !important;
+}
+
+.c_LayoutRow3
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 0px !important;
+}
+
+.c_LayoutCol2
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label2
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_txtServer
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_txtServer_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol3
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label10
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_txtDataBase
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_txtDataBase_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol4
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_chkAutent
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 32px;
+	background-color: Transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #337AB7;
+	direction: ltr;
+	display: block;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_chkAutent.rbCheckBox .rbText
+{
+	color: #337AB7;
+}
+
+.c_LayoutCol5
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label11
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_txtUser
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_txtUser_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol6
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label12
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_txtPassword
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_txtPassword_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol7
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label6
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_cboDataType
+{
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	background-color: #F7F7F7;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol8
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label9
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_txtProvider
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_txtProvider_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol10
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_labError
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #DC3545;
+	display: none;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_LayoutCol9
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_butCreate
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 40px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_butCreate:not(:hover), .c_butCreate.RadButton.rbButton.rbDisabled
+{
+	background-color: #337AB7;
+	border-color: #CCCCCC;
+	color: #FFFFFF !important;
+}
+
+.c_AjaxPanel1
+{
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 30px;
+	margin-bottom: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	background-color: Transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	cursor: inherit;
+	height: 100%;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+/*		Hover style		*/
+
+
+.c_butCreate:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_butCreate:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}

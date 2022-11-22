@@ -1,0 +1,160 @@
+/*		Remove Guters		*/
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+	
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+
+.c_Header_Form1
+{
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: var(--headerHeight);
+	overflow: hidden;
+}
+
+:root
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	--headerHeight: 60px;
+}
+
+/*
+Media query for XS resolution
+*/
+@media (min-width: 0px) {
+	
+	:root
+	{
+		--headerHeight: 60px;
+	}
+
+}
+
+.gvLayoutContainer
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_Header_LayoutContainer1
+{
+	background-color: Transparent;
+	background-size: auto;
+	cursor: inherit;
+}
+
+.c_Header_LayoutRow1
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 0px !important;
+}
+
+.c_Header_LayoutCol1
+{
+	background-color: #337AB7;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	overflow: inherit;
+	padding: 10px 10px 5px 10px !important;
+}
+
+.c_Header_Button15
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 7px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	width: 48px;
+	height: 38px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 2px !important;
+	border-bottom-right-radius: 2px !important;
+	border-top-left-radius: 2px !important;
+	border-top-right-radius: 2px !important;
+	border-width: 0px !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+}
+
+.c_Header_Button15:not(:hover), .c_Header_Button15.RadButton.rbButton.rbDisabled
+{
+	background-color: #337AB7;
+	border-color: #CCCCCC;
+	color: #FFFFFF !important;
+	min-width: 48px;
+}
+
+.c_Header_Button15_icon
+{
+	color: #FFFFFF;
+	font-size: 29px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_Header_Button15:hover .c_Header_Button15_icon
+{
+	background-image: none;
+	color: #FFFFFF;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+/*		Hover style		*/
+
+
+.c_Header_Button15:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+	min-width: 48px;
+}
+
+.c_Header_Button15:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}

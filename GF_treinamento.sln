@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Financeiro", "Financeiro\", "{43af1122-5f32-40e7-88fb-0dda51a5279c}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/Financeiro"
+		Debug.AspNetCompiler.PhysicalPath = "Financeiro\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Financeiro\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Financeiro"
+		Release.AspNetCompiler.PhysicalPath = "Financeiro\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Financeiro\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58747"
+		DefaultWebSiteLanguage = "Visual C#"
+		SlnRelativePath = "Financeiro\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43af1122-5f32-40e7-88fb-0dda51a5279c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43af1122-5f32-40e7-88fb-0dda51a5279c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43af1122-5f32-40e7-88fb-0dda51a5279c}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {fd095060-2640-42c4-801b-954a76b81d3e}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,112 @@
+/*		Remove Guters		*/
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+	
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+
+.c_Footer_Form1
+{
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	background-color: #FCFCFC;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: var(--footerHeight);
+	overflow: hidden;
+}
+
+:root
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	--footerHeight: 53px;
+}
+
+/*
+Media query for XS resolution
+*/
+@media (min-width: 0px) {
+	
+	:root
+	{
+		--footerHeight: 53px;
+	}
+
+}
+
+.gvLayoutContainer
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_Footer_GLayoutContainer1
+{
+	background-size: auto;
+	cursor: inherit;
+}
+
+.c_Footer_GLayoutRow1
+{
+	background-position: center;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	padding: 5px !important;
+}
+
+.c_Footer_GLayoutCol3
+{
+	background-position: center;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px !important;
+}
+
+.c_Footer_Label1
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 20px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Right;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}

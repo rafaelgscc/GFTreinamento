@@ -1,0 +1,75 @@
+/* RadCheckBox style: */ 
+
+.RadButton.rbCheckBox.checkbox-toggle-secondary .rbIcon{
+    margin: 0 10px 0 0 !important;
+}
+
+.RadCheckBox.checkbox-toggle-secondary span.rbIcon {
+	height: auto !important;
+	width: auto !important;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 50px;
+	vertical-align: -webkit-baseline-middle;
+}
+
+.RadCheckBox.checkbox-toggle-secondary span.rbIcon::after {
+	height: 20px;
+	vertical-align: middle !important;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.RadCheckBox.checkbox-toggle-secondary span.rbIcon.rbToggleCheckbox {
+	background-color: transparent;
+	border-color: #337AB7;
+}
+
+.RadCheckBox.checkbox-toggle-secondary span.rbIcon.rbToggleCheckbox:hover {
+    border-color: #337AB7;
+}
+
+.RadCheckBox.checkbox-toggle-secondary span.rbIcon.rbToggleCheckboxChecked {
+	background-color: #337AB7;
+	border-color: #337AB7;
+	outline: 0.22rem solid #337AB750 !important;
+}
+
+.RadCheckBox.checkbox-toggle-secondary span.rbIcon.rbToggleCheckboxChecked:hover {
+	background-color: #337AB7;
+}
+
+.RadCheckBox.checkbox-toggle-secondary span.rbIcon::before {
+	font-size: 0px !important;
+	vertical-align: middle !important;
+	horizontal-align: middle !important;
+	color: #337AB7;
+	background-color: #337AB7;
+	height: 10px;
+	border-radius: 50px;
+	border-width: 1px;
+	border-color:#337AB7;
+	border-style: solid;
+	width: 10px;
+	margin:2px;
+}
+
+.RadCheckBox.checkbox-toggle-secondary span.rbIcon:hover::before {
+    background-color: #337AB7;
+}
+
+.RadCheckBox.checkbox-toggle-secondary span.rbIcon.rbToggleCheckboxChecked::before {
+	float: right;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+} 
+
+.RadCheckBox.checkbox-toggle-secondary span.rbIcon.rbToggleCheckbox::after {
+	content: "" !important;
+	color: white;
+}
+
+.RadCheckBox.checkbox-toggle-secondary span.rbIcon.rbToggleCheckboxChecked::after {
+	content: "" !important;
+	color: white;
+}

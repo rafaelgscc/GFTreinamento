@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Financeiro</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+
+<div class="properties">
+		<h2>Bancos de Dados</h2>
+		  <h3 style="margin-bottom:0px">Banco: <span>Treinamento</span></h3>
+		  <span style="margin-left :50px">Descrição:</span>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>SYS~Sequencial</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>PW_Projeto</td>
+						<td>PW~Projeto</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>SYS_Tabela</td>
+						<td>SYS~Tabela</td>
+						<td>varchar</td>
+						<td>30</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>SYS_Campo</td>
+						<td>SYS~Campo</td>
+						<td>varchar</td>
+						<td>30</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>SYS_Valor</td>
+						<td>SYS~Valor</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>SYS_ValorAnterior</td>
+						<td>SYS~ValorAnterior</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>SYS_Estacao</td>
+						<td>SYS~Estacao</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>SYS_Identificacao</td>
+						<td>SYS~Identificacao</td>
+						<td>varchar</td>
+						<td>30</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>SYS_Pendentes</td>
+						<td>SYS~Pendentes</td>
+						<td>int</td>
+						<td>6</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999999</td>
+						<td>0</td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>Chave sequencial</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>SYS~Tabela</td></tr>
+							<tr><th>Campo do índice: </th><td>SYS~Campo</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Carteira</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>CAR_ID</td>
+						<td>ID da carteira</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>CAR_NOME</td>
+						<td>Nome da Carteira</td>
+						<td>nvarchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_CARTEIRA</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>ID da carteira</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Centro de Custo</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>CC_ID</td>
+						<td>ID Centro de Custo</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>CC_NOME</td>
+						<td>Nome do centro de custos</td>
+						<td>nvarchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_CENTRO_DE_CUSTO</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>ID Centro de Custo</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Conta</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>CT_ID</td>
+						<td>ID da Conta</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>CT_NOME</td>
+						<td>Nome da conta</td>
+						<td>nvarchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>GC_ID</td>
+						<td>ID do Grupo</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>9999999999</td>
+						<td>0</td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_CONTA</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Grupo de conta</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>GC_ID</td>
+						<td>ID do Grupo</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td>9999999999</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>GC_NOME</td>
+						<td>Nome do Grupo de conta</td>
+						<td>nvarchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_GRUPO_CONTA</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>ID do Grupo</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Grupo de login</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_GROUP_NAME</td>
+						<td>Nome do grupo</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_GROUP_IS_ADMIN</td>
+						<td>Grupo tipo administração</td>
+						<td>bit</td>
+						<td>1</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>Por nome</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Nome do grupo</td></tr>
+					</table>
+					<br/>
+				<h3 style="margin-left:50px; margin-bottom:0px">Campos Relacionados</h3>
+						<table style="margin-left:70px">
+						<tr><th>Relacionamento: </th><td>Grupo para regra</td></tr>			
+							<tr><th>Cardinalidade: </th><td>1-N</td></tr>
+							<tr><th>Tipo de Relacionamento: </th><td>Constraint</td></tr>
+							<tr><th>Tabela Estrangeira: </th><td>Regras para login</td></tr>
+							<tr><th>Campo base: </th><td>LOGIN_GROUP_NAME</td></tr>
+							<tr><th>Campo da tabela estrangeira: </th><td>LOGIN_GROUP_NAME</td></tr>
+						</table>
+						<br/>
+						<table style="margin-left:70px">
+						<tr><th>Relacionamento: </th><td>Grupo para usuário</td></tr>			
+							<tr><th>Cardinalidade: </th><td>1-N</td></tr>
+							<tr><th>Tipo de Relacionamento: </th><td>Constraint</td></tr>
+							<tr><th>Tabela Estrangeira: </th><td>Usuário de login</td></tr>
+							<tr><th>Campo base: </th><td>LOGIN_GROUP_NAME</td></tr>
+							<tr><th>Campo da tabela estrangeira: </th><td>LOGIN_GROUP_NAME</td></tr>
+						</table>
+						<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Regras para login</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_RULE_PROJECT</td>
+						<td>Id do projeto</td>
+						<td>varchar</td>
+						<td>8</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_GROUP_NAME</td>
+						<td>Nome do grupo</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_RULE_OBJECT</td>
+						<td>Objeto da regra</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_RULE_PERMISSIONS</td>
+						<td>Permissões da regra</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>Por projeto/grupo/objeto</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Id do projeto</td></tr>
+							<tr><th>Campo do índice: </th><td>Nome do grupo</td></tr>
+							<tr><th>Campo do índice: </th><td>Objeto da regra</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Token para login</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_TOKEN_ID</td>
+						<td>Id do token</td>
+						<td>varchar</td>
+						<td>36</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_LOGIN</td>
+						<td>Id do usuário</td>
+						<td>varchar</td>
+						<td>40</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_TOKEN_ACQUIRED</td>
+						<td>Data de emissão do token</td>
+						<td>datetime</td>
+						<td>19</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy HH:mm:ss</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_TOKEN_EXPIRATION</td>
+						<td>Data de expiração do token</td>
+						<td>datetime</td>
+						<td>19</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy HH:mm:ss</td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>Por token</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Id do token</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Usuário de login</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_GROUP_NAME</td>
+						<td>Nome do grupo</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_LOGIN</td>
+						<td>Login</td>
+						<td>varchar</td>
+						<td>40</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_PASSWORD</td>
+						<td>Senha</td>
+						<td>varchar</td>
+						<td>40</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_NAME</td>
+						<td>Nome do usuário</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_OBS</td>
+						<td>Observações</td>
+						<td>text</td>
+						<td>0</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>Por login</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Login</td></tr>
+					</table>
+					<br/>
+				<h3 style="margin-left:50px; margin-bottom:0px">Campos Relacionados</h3>
+						<table style="margin-left:70px">
+						<tr><th>Relacionamento: </th><td>Usuário para token</td></tr>			
+							<tr><th>Cardinalidade: </th><td>1-N</td></tr>
+							<tr><th>Tipo de Relacionamento: </th><td>Constraint</td></tr>
+							<tr><th>Tabela Estrangeira: </th><td>Token para login</td></tr>
+							<tr><th>Campo base: </th><td>LOGIN_USER_LOGIN</td></tr>
+							<tr><th>Campo da tabela estrangeira: </th><td>LOGIN_USER_LOGIN</td></tr>
+						</table>
+						<br/>
+
+					<h3 style="margin-left:40px; margin-bottom:0px">View</h3>
+</div>             
+</body>
+</html>

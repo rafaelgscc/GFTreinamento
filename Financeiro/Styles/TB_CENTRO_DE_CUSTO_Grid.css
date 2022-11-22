@@ -1,0 +1,409 @@
+/*		Remove Guters		*/
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+	
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+
+.c_Form1
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+#Form1_body
+{
+	background-color: #F5F7F8;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainAjaxPanel
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 100%;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+.c_LayoutContainer1
+{
+	background-color: Transparent;
+	background-size: auto;
+	cursor: inherit;
+}
+
+.c_LayoutRow7
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 10px !important;
+}
+
+.c_LayoutCol11
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 0px !important;
+}
+
+.c_LayoutRow3
+{
+	background-color: #FCFCFC;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	overflow: hidden;
+	padding: 0px !important;
+}
+
+.c_LayoutCol9
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 12px 20px 12px 20px !important;
+}
+
+.c_LayoutRow6
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 0px !important;
+}
+
+.c_LayoutCol19
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: start;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Button22
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	width: 33px;
+	height: 38px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 2px !important;
+	border-bottom-right-radius: 2px !important;
+	border-top-left-radius: 2px !important;
+	border-top-right-radius: 2px !important;
+	border-width: 0px !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button22:not(:hover), .c_Button22.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #CCCCCC;
+	color: #FFFFFF !important;
+	min-width: 33px;
+}
+
+.c_Button22_icon
+{
+	color: #292828;
+	font-size: 22px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_Button22:hover .c_Button22_icon
+{
+	background-image: none;
+	color: #292828;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_labModuleTitle
+{
+	font-family: 'Segoe UI';
+	font-size: 20px;
+	font-weight: 500;
+	font-weight: 500;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 4px;
+	margin-bottom: 0px;
+	--mleft: 10px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_LayoutCol21
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: end;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Button18
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	width: 40px;
+	height: 35px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+}
+
+.c_Button18:not(:hover), .c_Button18.RadButton.rbButton.rbDisabled
+{
+	background-color: #FFFFFF;
+	border-color: #CCCCCC;
+	color: #292828 !important;
+	min-width: 40px;
+}
+
+.c_Button18_icon
+{
+	color: #292828;
+	font-size: 16px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_Button18:hover .c_Button18_icon
+{
+	background-image: none;
+	color: #292828;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_Button19
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	--mleft: 10px;
+	--mright: 0px;
+	position: relative;
+	width: 100px;
+	height: 35px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	gap: 10px;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+}
+
+.c_Button19:not(:hover), .c_Button19.RadButton.rbButton.rbDisabled
+{
+	background-color: #337AB7;
+	border-color: #CCCCCC;
+	color: #FFFFFF !important;
+}
+
+.c_Button19_icon
+{
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_Button19:hover .c_Button19_icon
+{
+	background-image: none;
+	color: #FFFFFF;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_LayoutCol10
+{
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 20px !important;
+}
+
+.c_Grid_TB_CENTRO_DE_CUSTO
+{
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	display: block;
+	outline-style: none !important;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+#Grid_TB_CENTRO_DE_CUSTO_GridData.rgDataDiv
+{
+	height: auto !important;
+}
+
+.c_GridColumn_CC_NOME
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn2
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+/*		Hover style		*/
+
+
+.c_Button22:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #CCCCCC !important;
+	color: #292828 !important;
+	min-width: 33px;
+}
+
+.c_Button22:hover
+{
+	border-color: #CCCCCC !important;
+}
+
+.c_Button18:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #CCCCCC !important;
+	color: #292828 !important;
+	min-width: 40px;
+}
+
+.c_Button18:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #CCCCCC !important;
+	color: #292828 !important;
+}
+
+.c_Button19:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_Button19:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}

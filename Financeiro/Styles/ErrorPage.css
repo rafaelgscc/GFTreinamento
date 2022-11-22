@@ -1,0 +1,205 @@
+/*		Remove Guters		*/
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+	
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+
+.c_Form1
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+#Form1_body
+{
+	background-color: #F5F7F8;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_AjaxPanel1
+{
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	overflow: hidden;
+	background-color: Transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	cursor: inherit;
+	height: 100%;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutContainer1
+{
+	background-color: Transparent;
+	background-size: auto;
+	cursor: inherit;
+}
+
+.c_LayoutRow1
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 240px 0px 240px 0px !important;
+}
+
+.c_LayoutCol1
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Icon1
+{
+	background-color: Transparent;
+	color: #337AB7;
+	display: block;
+	font-size: 80px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol1 .c_container_Icon1
+{
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	text-align: center;
+}
+
+.c_Label1
+{
+	font-family: 'Segoe UI';
+	font-size: 50px;
+	font-weight: 800;
+	font-weight: 800;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #337AB7;
+	display: block;
+	Padding-right: 0px;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_LayoutCol2
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_labHttpErrorMessage
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #337AB7;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_labHttpErrorCode
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #337AB7;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_HtmlCodeControl1
+{
+	margin-left: -166px;
+	margin-top: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute !important;
+	left: 50%;
+	width: 333px;
+	height: 172px;
+	top: 0 !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}

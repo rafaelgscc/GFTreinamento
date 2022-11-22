@@ -1,0 +1,223 @@
+/* Grid style: */ 
+
+.RadGrid_Bootstrap.grid-default {
+    border: 1px solid #CCCCCC;
+    color: #383838;
+    background-color: #FCFCFC;
+	border-radius: 5px;
+	overflow:hidden;
+}
+
+.RadGrid_Bootstrap.grid-default .rgNoRecords {
+    text-align-last:center;
+	height: 80px;
+}
+
+.RadGrid_Bootstrap.grid-default .rgGroupPanel {
+	border: solid #CCCCCC;
+	border-width: 0px 0px 1px 0px;
+	background: #FCFCFC;
+	background-image: linear-gradient(#ffffff08, #ffffff10);	
+	padding:5px 10px;
+}
+
+.RadGrid_Bootstrap.grid-default .rgCommandCell {
+	border: solid #CCCCCC;
+	border-width: 0px 0px 1px 0px;
+	color: #383838;
+	background-color: #FCFCFC;
+	background-image: linear-gradient(#ffffff10, #ffffff10);
+}
+
+.RadGrid_Bootstrap.grid-default .rgHeader,
+.RadGrid_Bootstrap.grid-default th.rgResizeCol,
+.RadGrid_Bootstrap.grid-default .rgHeaderWrapper {
+    color: #383838;
+    border-bottom-width: 0px;
+    background-color: #FCFCFC;
+    background-image: linear-gradient(#ffffff10, #ffffff10);
+}
+
+.RadGrid_Bootstrap .rgHeader, .RadGrid_Bootstrap .rgHeaderDiv, .RadGrid_Bootstrap th.rgResizeCol { 
+    border: solid #FCFCFC;
+    border-width: 0px 0px 0px 1px;
+}
+
+.RadGrid_Bootstrap.grid-default .rgFilterRow {
+    background: #FCFCFC;
+    background-image: linear-gradient(#ffffff10, #ffffff10);	
+}
+.RadGrid_Bootstrap.grid-default .rgFilterRow > td {
+	border: solid #FCFCFC;
+    border-style: solid;
+    border-width: 0 0 1px 1px;
+}
+.RadGrid_Bootstrap.grid-default .rgInput,
+.RadGrid_Bootstrap.grid-default .rgEditRow > td > [type="text"],
+.RadGrid_Bootstrap.grid-default .rgEditForm td > [type="text"],
+.RadGrid_Bootstrap.grid-default .rgBatchContainer > [type="text"],
+.RadGrid_Bootstrap.grid-default .rgFilterBox {
+    border-color: #CCCCCC;
+    color: #383838;
+    background-color: #FCFCFC;
+	width: 75% !important;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+.RadGrid_Bootstrap.grid-default .rgRow {
+    color: #383838;
+    background: #FCFCFC;
+	background-image: linear-gradient(#ffffff04,#ffffff03);
+	border-width: 0px 0px 0px 0px;
+}
+
+.RadGrid_Bootstrap.grid-default .rgRow > td {
+    border: solid #CCCCCC50;
+    border-width: 1px 0px 0px 0px;
+}
+.RadGrid_Bootstrap.grid-default .rgAltRow > td {
+    border: solid #CCCCCC50;
+    border-width: 1px 0px 0px 0px;
+}
+.RadComboBox_Bootstrap .rcbReadOnly {
+    border-color: #FCFCFC;
+    color: #292828;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(#FFFFFF10,#FFFFFF08);
+}
+.RadGrid_Bootstrap.grid-default .rgPagerCell .rgPagerButton,
+.RadGrid_Bootstrap.grid-default .rgPagerCell .rgActionButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #FFFFFF40;
+    color: #383838;
+    background-color: #FCFCFC;
+	background-image: linear-gradient(#ffffff10, #ffffff10);	
+}
+
+.RadGrid_Bootstrap input[type="button"] {
+	border-color: #FFFFFF50;
+	border-width:0px;
+	background-color: #337AB7;
+	background-image: linear-gradient(#ffffff10, #ffffff10);
+	border-radius: 3px !important;
+	overflow:hidden;
+	color:#FFFFFF;
+	padding:3px 10px 3px 10px;
+}
+
+.RadGrid_Bootstrap.grid-default .rgAltRow {
+    color: #383838;
+    background: #FCFCFC;
+}
+
+.RadGrid_Bootstrap.grid-default .rgRow a,
+.RadGrid_Bootstrap.grid-default .rgAltRow a,
+.RadGrid_Bootstrap.grid-default .rgFooter a,
+.RadGrid_Bootstrap.grid-default .rgEditForm a,
+.RadGrid_Bootstrap.grid-default .rgEditRow a,
+.RadGrid_Bootstrap.grid-default .rgHoveredRow a {
+    color: #337AB7;
+}
+
+.RadGrid_Black.grid-default .rgRow a:hover,
+.RadGrid_Black.grid-default .rgAltRow a:hover,
+.RadGrid_Black.grid-default .rgFooter a:hover,
+.RadGrid_Black.grid-default .rgEditForm a:hover,
+.RadGrid_Black.grid-default .rgEditRow a:hover,
+.RadGrid_Black.grid-default .rgHoveredRow a:hover {
+    color: #FFFFFF;
+}
+
+
+.RadGrid_Bootstrap.grid-default .rgHoveredRow {
+	background: #337AB7;
+    background-image: linear-gradient(transparent, #00000015);
+    color: #FFFFFF;
+}
+.RadComboBox_Bootstrap .rcbReadOnly {
+    border-color: #FFFFFF40;
+    color: #383838;
+    background-color: #FCFCFC;
+    background-image: linear-gradient(#FFFFFF05,#FFFFFF02);
+}
+
+.RadComboBox_Bootstrap .rcbReadOnly.rcbHovered {
+    border-color: #FFFFFF40;
+    color: #383838;
+    background-color: #FCFCFC;
+    background-image: linear-gradient(#FFFFFF05,#FFFFFF02);
+}
+
+.RadGrid_Bootstrap .rgPagerCell .rgNumPart a:hover {
+    border-color: #337AB7;
+    color: #337AB7;
+    background-color: #FCFCFC1 !important;
+    background-image: linear-gradient(#FFFFFF05,#FFFFFF02);
+}
+.RadGrid_Bootstrap.grid-default .rgPagerCell .rgNumPart a.rgCurrentPage {
+    border-color: #337AB7;
+    color: #FFFFFF;
+    background-color: #337AB7 !important;
+}
+.RadGrid_Bootstrap.grid-default .rgFilter {
+    border: none;
+	border-radius:3px;
+    color: #FFFFFF;
+    background-color: #FCFCFC;
+    background-image: linear-gradient(#00000010, #00000010);
+}
+.RadGrid_Bootstrap.grid-default .rgFilterActive,
+.RadGrid_Bootstrap.grid-default .rgFilterActive:hover,
+.RadGrid_Bootstrap.grid-default .rgFilterActive:focus {
+    border-color: #CCCCCC;
+    color: #292828;
+    background-color: #FFFFFF;
+	background-image: linear-gradient(#ffffff10, #ffffff10);
+    
+}
+.RadComboBox_Bootstrap .rcbReadOnly.rcbFocused, .RadComboBox_Bootstrap .rcbReadOnly.rcbExpanded {
+    border-color: #FCFCFC;
+    color: #FFFFFF;
+    background-color: #FCFCFC;
+    background-image: linear-gradient(#ffffff10, #ffffff10);
+}
+.RadComboBoxDropDown_Bootstrap .rcbHovered {
+    color: #292828;
+    background-color: #FFFFFF;
+}
+.RadComboBoxDropDown_Bootstrap {
+    border-color: #FCFCFC;
+    color: #383838;
+    background-color: #FCFCFC;
+}
+.RadGrid_Bootstrap .rgGroupHeader, .RadGrid_Bootstrap .rgGroupHeader>td {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+	background-color: #FCFCFC;
+	color:#383838;
+}
+
+.RadGrid_Bootstrap td.rgGroupCol {
+    background-color: #FCFCFC;
+    background-image: linear-gradient(#ffffff10, #ffffff10);
+	border:none;
+	color:#383838;
+}
+
+.RadGrid_Bootstrap .rgGroupItem {
+    border: none;
+    background-color: #FCFCFC;	
+    background-image: linear-gradient(#ffffff20, #ffffff05);
+    color: #383838;
+	border-radius: 5px;
+}
+.RadGrid_Bootstrap .rgCommandCell .t-button:hover {
+    border-color: #FCFCFC;
+    color: #383838;
+    background-color: #FCFCFC;
+    background-image: linear-gradient(#ffffff20, #ffffff05);
+}

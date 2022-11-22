@@ -1,0 +1,33 @@
+/* RadTextBox style: */ 
+
+.RadInput_Bootstrap .riTextBox.textbox-default, 
+.RadInput_Bootstrap .riSelect.textbox-default, 
+.RadInput_Bootstrap .rcSelect.textbox-default, 
+.RadInputMgr_Bootstrap {
+    border-color: #CCCCCC;
+    color: #333333;
+    background-color: #F7F7F7;
+}
+
+.RadInput_Bootstrap .riTextBox.textbox-default, .RadInputMgr {
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.RadInput_Bootstrap.RadInputFocused .riTextBox.textbox-default,
+.RadInput_Bootstrap.RadInputFocused .riSelect.textbox-default,
+.RadInput_Bootstrap.RadInputFocused .rcSelect.textbox-default,
+.RadInput_Focused_Bootstrap{
+    border-color: #CCCCCC;
+    color: #333333;
+    background-color: #F7F7F7;
+}
+
+.RadInput_Bootstrap.RadInputHovered .riTextBox.textbox-default,
+.RadInput_Bootstrap.RadInputHovered .riSelect.textbox-default,
+.RadInput_Bootstrap.RadInputHovered .rcSelect.textbox-default,
+.RadInput_Hover_Default{
+    border-color: #CCCCCC;
+    color: #333333;
+    background-color: #F7F7F7;
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pages>
+	<Page Name="TB_GRUPO_CONTA.aspx" Title="Detalhes de Grupo de conta" />
+	<Page Name="TB_GRUPO_CONTA_Grid.aspx" Title="Lista de Grupo de conta" />
+	<Page Name="TB_CONTA.aspx" Title="Detalhes de Conta" />
+	<Page Name="TB_CONTA_Grid.aspx" Title="Lista de Conta" />
+	<Page Name="TB_CENTRO_DE_CUSTO.aspx" Title="Detalhes de Centro de Custo" />
+	<Page Name="TB_CENTRO_DE_CUSTO_Grid.aspx" Title="Lista de Centro de Custo" />
+	<Page Name="TB_CARTEIRA.aspx" Title="Detalhes de Carteira" />
+	<Page Name="TB_CARTEIRA_Grid.aspx" Title="Lista de Carteira" />
+</Pages>

@@ -1,0 +1,5 @@
+/* Button style: */ 
+
+.button-secondary:hover{
+	background-image: linear-gradient(#ffffff30,#ffffff30) !important;
+}

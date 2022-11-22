@@ -1,0 +1,2316 @@
+/*		Remove Guters		*/
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+	
+.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+
+.c_Form1
+{
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+#Form1_body
+{
+	background-color: #F5F7F8;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_LayoutContainer1
+{
+	background-color: Transparent;
+	background-size: auto;
+	cursor: inherit;
+}
+
+.c_LayoutRow5
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 10px !important;
+}
+
+.c_LayoutCol36
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_LayoutRow1
+{
+	background-color: #FCFCFC;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	overflow: hidden;
+	padding: 0px !important;
+}
+
+.c_LayoutCol33
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 12px 20px 12px 20px !important;
+}
+
+.c_Label1
+{
+	font-family: 'Segoe UI';
+	font-size: 20px;
+	font-weight: 500;
+	font-weight: 500;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_LayoutCol34
+{
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 20px !important;
+}
+
+.c_TabControl1
+{
+	cursor: inherit;
+}
+
+.c_TabItem1
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_TabPage1
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_LayoutRow2
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 10px !important;
+}
+
+.c_LayoutCol56
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_LayoutRow14
+{
+	background-color: #FCFCFC;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	overflow: hidden;
+	padding: 0px !important;
+}
+
+.c_LayoutCol58
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 12px 20px 12px 20px !important;
+}
+
+.c_Label80
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_LayoutCol59
+{
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 20px !important;
+}
+
+.c_LayoutRow15
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 0px !important;
+}
+
+.c_LayoutCol4
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label70
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_RadTextBox21
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_RadTextBox21_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol6
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label72
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_RadTextBox23
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_RadTextBox23_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol5
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label71
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_RadTextBox22
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_RadTextBox22_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol8
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_butPWSave2
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 40px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	gap: 10px;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_butPWSave2:not(:hover), .c_butPWSave2.RadButton.rbButton.rbDisabled
+{
+	background-color: #337AB7;
+	border-color: #CCCCCC;
+	color: #FFFFFF !important;
+}
+
+.c_butPWSave2_icon
+{
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_butPWSave2:hover .c_butPWSave2_icon
+{
+	background-image: none;
+	color: #FFFFFF;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_Label69
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #DC3545;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_AjaxPanel1
+{
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 44px;
+	background-color: Transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	cursor: inherit;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_TabItem2
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_TabPage2
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_LayoutRow3
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 10px !important;
+}
+
+.c_LayoutCol40
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_LayoutRow8
+{
+	background-color: #FCFCFC;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	overflow: hidden;
+	padding: 0px !important;
+}
+
+.c_LayoutCol41
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 12px 20px 12px 20px !important;
+}
+
+.c_Label74
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_LayoutCol42
+{
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 20px !important;
+}
+
+.c_LayoutRow9
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 0px !important;
+}
+
+.c_LayoutCol50
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_ListBox13
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	background-color: #FCFCFC;
+	display: block;
+	height: 100%;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_ListBox13.rlbItem
+{
+	background-color: #FCFCFC;
+	color: #383838;
+	font-family: Segoe UI;
+	font-size: 12px;
+}
+
+.c_LayoutCol44
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Button26
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 40px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	gap: 10px;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_Button26:not(:hover), .c_Button26.RadButton.rbButton.rbDisabled
+{
+	background-color: #337AB7;
+	border-color: #CCCCCC;
+	color: #FFFFFF !important;
+}
+
+.c_Button26_icon
+{
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_Button26:hover .c_Button26_icon
+{
+	background-image: none;
+	color: #FFFFFF;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_LayoutCol47
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_LayoutRow10
+{
+	background-color: #FCFCFC;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	overflow: hidden;
+	padding: 0px !important;
+}
+
+.c_LayoutCol48
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 12px 20px 12px 20px !important;
+}
+
+.c_Label75
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_LayoutCol49
+{
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 20px !important;
+}
+
+.c_LayoutRow11
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 0px !important;
+}
+
+.c_LayoutCol55
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_ListBox14
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	background-color: #FCFCFC;
+	display: block;
+	height: 100%;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_ListBox14.rlbItem
+{
+	background-color: #FCFCFC;
+	color: #383838;
+	font-family: Segoe UI;
+	font-size: 12px;
+}
+
+.c_LayoutCol25
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_CheckBox8
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 32px;
+	background-color: Transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #337AB7;
+	direction: ltr;
+	display: block;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_CheckBox8.rbCheckBox .rbText
+{
+	color: #337AB7;
+}
+
+.c_LayoutCol22
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_CheckBox7
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 32px;
+	background-color: Transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #337AB7;
+	direction: ltr;
+	display: block;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_CheckBox7.rbCheckBox .rbText
+{
+	color: #337AB7;
+}
+
+.c_LayoutCol23
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_CheckBox10
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 32px;
+	background-color: Transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #337AB7;
+	direction: ltr;
+	display: block;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_CheckBox10.rbCheckBox .rbText
+{
+	color: #337AB7;
+}
+
+.c_LayoutCol24
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_CheckBox9
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 32px;
+	background-color: Transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #337AB7;
+	direction: ltr;
+	display: block;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_CheckBox9.rbCheckBox .rbText
+{
+	color: #337AB7;
+}
+
+.c_LayoutCol37
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_LayoutRow6
+{
+	background-color: #FCFCFC;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	overflow: hidden;
+	padding: 0px !important;
+}
+
+.c_LayoutCol38
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 12px 20px 12px 20px !important;
+}
+
+.c_Label79
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_LayoutCol39
+{
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 20px !important;
+}
+
+.c_LayoutRow7
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 0px !important;
+}
+
+.c_LayoutCol9
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label73
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_RadTextBox24
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_RadTextBox24_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol10
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_RadCheckBox6
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 32px;
+	background-color: Transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #337AB7;
+	direction: ltr;
+	display: block;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_RadCheckBox6.rbCheckBox .rbText
+{
+	color: #337AB7;
+}
+
+.c_LayoutCol11
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px !important;
+}
+
+.c_butGroupSave3
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 40px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	gap: 10px;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_butGroupSave3:not(:hover), .c_butGroupSave3.RadButton.rbButton.rbDisabled
+{
+	background-color: #337AB7;
+	border-color: #CCCCCC;
+	color: #FFFFFF !important;
+}
+
+.c_butGroupSave3_icon
+{
+	color: #F5F7F8;
+	font-size: 16px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_butGroupSave3:hover .c_butGroupSave3_icon
+{
+	background-image: none;
+	color: #F5F7F8;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_LayoutCol13
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px !important;
+}
+
+.c_butGroupRemove3
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 40px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	gap: 10px;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_butGroupRemove3:not(:hover), .c_butGroupRemove3.RadButton.rbButton.rbDisabled
+{
+	background-color: #FFFFFF;
+	border-color: #CCCCCC;
+	color: #292828 !important;
+}
+
+.c_butGroupRemove3_icon
+{
+	color: #292828;
+	font-size: 16px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_butGroupRemove3:hover .c_butGroupRemove3_icon
+{
+	background-image: none;
+	color: #292828;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_LayoutCol12
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px !important;
+}
+
+.c_butGroupCancel3
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 40px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	gap: 10px;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_butGroupCancel3:not(:hover), .c_butGroupCancel3.RadButton.rbButton.rbDisabled
+{
+	background-color: #FFFFFF;
+	border-color: #CCCCCC;
+	color: #292828 !important;
+}
+
+.c_butGroupCancel3_icon
+{
+	color: #292828;
+	font-size: 16px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_butGroupCancel3:hover .c_butGroupCancel3_icon
+{
+	background-image: none;
+	color: #292828;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_TabItem3
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_TabPage3
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_LayoutRow4
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 10px !important;
+}
+
+.c_LayoutCol17
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_LayoutRow16
+{
+	background-color: #FCFCFC;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	overflow: hidden;
+	padding: 0px !important;
+}
+
+.c_LayoutCol60
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 12px 20px 12px 20px !important;
+}
+
+.c_Label81
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_LayoutCol61
+{
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 20px !important;
+}
+
+.c_Label76
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_ListBox15
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	background-color: #FCFCFC;
+	display: block;
+	height: 100%;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_ListBox15.rlbItem
+{
+	background-color: #FCFCFC;
+	color: #383838;
+	font-family: Segoe UI;
+	font-size: 12px;
+}
+
+.c_Label77
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_ListBox16
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	background-color: #FCFCFC;
+	display: block;
+	height: 100%;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_ListBox16.rlbItem
+{
+	background-color: #FCFCFC;
+	color: #383838;
+	font-family: Segoe UI;
+	font-size: 12px;
+}
+
+.c_LayoutRow17
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 0px !important;
+}
+
+.c_LayoutCol19
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_butUserNew
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 40px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	gap: 10px;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_butUserNew:not(:hover), .c_butUserNew.RadButton.rbButton.rbDisabled
+{
+	background-color: #337AB7;
+	border-color: #CCCCCC;
+	color: #FFFFFF !important;
+}
+
+.c_butUserNew_icon
+{
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_butUserNew:hover .c_butUserNew_icon
+{
+	background-image: none;
+	color: #FFFFFF;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_LayoutCol20
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_butUserRemove
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 40px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	gap: 10px;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_butUserRemove:not(:hover), .c_butUserRemove.RadButton.rbButton.rbDisabled
+{
+	background-color: #FFFFFF;
+	border-color: #CCCCCC;
+	color: #292828 !important;
+}
+
+.c_butUserRemove_icon
+{
+	color: #292828;
+	font-size: 16px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_butUserRemove:hover .c_butUserRemove_icon
+{
+	background-image: none;
+	color: #292828;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_LayoutCol21
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_LayoutRow18
+{
+	background-color: #FCFCFC;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	overflow: hidden;
+	padding: 0px !important;
+}
+
+.c_LayoutCol62
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 12px 20px 12px 20px !important;
+}
+
+.c_Label82
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_LayoutCol63
+{
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 20px !important;
+}
+
+.c_LayoutRow19
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	padding: 0px !important;
+}
+
+.c_LayoutCol27
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label56
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_RadTextBox10
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_RadTextBox10_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol32
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label78
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_txtUserName
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_txtUserName_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol31
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label57
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_txtPassword
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_txtPassword_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol30
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label59
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_txtPasswordConfirm
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_txtPasswordConfirm_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol29
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_Label60
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	color: #383838;
+	display: block;
+	font-weight: 400;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_txtObservation
+{
+	font-family: 'Segoe UI' !important;
+	font-size: 14px !important;
+	background-color: #F7F7F7 !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 92px !important;
+	height: 100%;
+	outline-style: none !important;
+}
+
+.c_txtObservation_wrapper
+{
+	position: relative;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: block;
+	height: 92px !important;
+	margin: 0px var(--mright) 5px var(--mleft);
+	--mleft: 0px;
+	--mright: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_LayoutCol28
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_butUserSave
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 40px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	gap: 10px;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_butUserSave:not(:hover), .c_butUserSave.RadButton.rbButton.rbDisabled
+{
+	background-color: #337AB7;
+	border-color: #CCCCCC;
+	color: #FFFFFF !important;
+}
+
+.c_butUserSave_icon
+{
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_butUserSave:hover .c_butUserSave_icon
+{
+	background-image: none;
+	color: #FFFFFF;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_LayoutCol26
+{
+	background-color: Transparent;
+	background-position: center;
+	background-size: auto;
+	cursor: inherit;
+	display: flex;
+	flex-direction: column;
+	overflow: inherit;
+	padding: 5px 10px 5px 10px !important;
+}
+
+.c_butUserCancel
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-left: var(--mleft) !important;
+	margin-right: var(--mright);
+	margin-top: 0px;
+	margin-bottom: 5px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: relative;
+	height: 40px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	gap: 10px;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px 10px 0px 10px !important;
+	text-align: Center;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_butUserCancel:not(:hover), .c_butUserCancel.RadButton.rbButton.rbDisabled
+{
+	background-color: #FFFFFF;
+	border-color: #CCCCCC;
+	color: #292828 !important;
+}
+
+.c_butUserCancel_icon
+{
+	color: #292828;
+	font-size: 16px;
+	text-align: center;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_butUserCancel:hover .c_butUserCancel_icon
+{
+	background-image: none;
+	color: #292828;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+/*		Hover style		*/
+
+
+.c_butPWSave2:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_butPWSave2:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_Button26:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_Button26:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_butGroupSave3:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_butGroupSave3:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_butGroupRemove3:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #CCCCCC !important;
+	color: #292828 !important;
+}
+
+.c_butGroupRemove3:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #CCCCCC !important;
+	color: #292828 !important;
+}
+
+.c_butGroupCancel3:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #CCCCCC !important;
+	color: #292828 !important;
+}
+
+.c_butGroupCancel3:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #CCCCCC !important;
+	color: #292828 !important;
+}
+
+.c_butUserNew:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_butUserNew:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_butUserRemove:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #CCCCCC !important;
+	color: #292828 !important;
+}
+
+.c_butUserRemove:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #CCCCCC !important;
+	color: #292828 !important;
+}
+
+.c_butUserSave:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_butUserSave:hover
+{
+	background-color: #337AB7 !important;
+	border-color: #CCCCCC !important;
+	color: #FFFFFF !important;
+}
+
+.c_butUserCancel:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #CCCCCC !important;
+	color: #292828 !important;
+}
+
+.c_butUserCancel:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #CCCCCC !important;
+	color: #292828 !important;
+}
