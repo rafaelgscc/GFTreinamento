@@ -7,7 +7,7 @@
 </head>
 	<body>
 		<telerik:RadCodeBlock ID="BodyCodeBlock" runat="server">
-			<script type="text/javascript" src="<%= ResolveUrl("~/JS/Common.js??sv=1.0_20221122174319") %>"></script>
+			<script type="text/javascript" src="<%= ResolveUrl("~/JS/Common.js??sv=1.0_20221129105948") %>"></script>
 			<script type="text/javascript"> 
 				currentPath = "<%= Page.Request.Path %>";
 				function TryLogin(PageToRedirect, RefreshControlsID)

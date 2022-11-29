@@ -19,7 +19,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Financeiro", "Financeiro\",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "58747"
+		VWDPort = "32785"
 		DefaultWebSiteLanguage = "Visual C#"
 		SlnRelativePath = "Financeiro\"
 	EndProjectSection
@@ -38,6 +38,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {fd095060-2640-42c4-801b-954a76b81d3e}
+		SolutionGuid = {ecd1b51a-d684-4d28-aee0-90804b27c895}
 	EndGlobalSection
 EndGlobal

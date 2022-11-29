@@ -256,6 +256,74 @@
 							<tr><th>Campo do índice: </th><td>ID Centro de Custo</td></tr>
 					</table>
 					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Configurações</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>CONFIG_ID</td>
+						<td>ID config</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>CONFIG_CONTA_TRANSF_PADRAO</td>
+						<td>Conta padrão para transferências</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>CONFIG_CARTEIRA_PADRAO</td>
+						<td>CONFIG_CARTEIRA_PADRAO</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_CONFIGURACOES</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>False</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>ID config</td></tr>
+					</table>
+					<br/>
 			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Conta</span></h3>
 				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
 				 <table style="margin-left:70px">
@@ -321,6 +389,165 @@
 						<tr><th>Único: </th><td>True</td></tr>
 						<tr><th>Primário: </th><td>True</td></tr>
 						<tr><th>FillFactor: </th><td>90</td></tr>			
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Correntista</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>COR_ID</td>
+						<td>ID do correntista</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>COR_NOME</td>
+						<td>Nome do Correntista</td>
+						<td>nvarchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>COR_CPF</td>
+						<td>CPF</td>
+						<td>varchar</td>
+						<td>14</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999.999.999-99</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>COR_FISICA</td>
+						<td>Física</td>
+						<td>bit</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>COR_CNPJ</td>
+						<td>CNPJ</td>
+						<td>varchar</td>
+						<td>18</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>99.999.999/0001-99</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>COR_JURIDICA</td>
+						<td>Jurídica</td>
+						<td>bit</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>COR_ENDERECO</td>
+						<td> Endereço</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>COR_BAIRRO</td>
+						<td>Bairro</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>COR_CIDADE</td>
+						<td>Cidade</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>COR_EMAIL</td>
+						<td>E-mail</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_CORRENTISTA</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>ID do correntista</td></tr>
 					</table>
 					<br/>
 			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Grupo de conta</span></h3>

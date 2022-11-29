@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Pages>
+	<Page Name="TB_CONFIGURACOES.aspx" Title="Configurações" />
+	<Page Name="TB_CORRENTISTA.aspx" Title="Detalhes de Correntista" />
+	<Page Name="TB_CORRENTISTA_Grid.aspx" Title="Lista de Correntista" />
 	<Page Name="TB_GRUPO_CONTA.aspx" Title="Detalhes de Grupo de conta" />
 	<Page Name="TB_GRUPO_CONTA_Grid.aspx" Title="Lista de Grupo de conta" />
 	<Page Name="TB_CONTA.aspx" Title="Detalhes de Conta" />

@@ -96,9 +96,9 @@
 		</StyleSheets>
 	</telerik:RadStyleSheetManager>
 	<telerik:RadCodeBlock ID="HeaderCodeBlock" runat="server">
-		<link rel="stylesheet" href="<%= ResolveUrl("~/Styles/animate.min.css??sv=1.0_20221122174321") %>" type="text/css" media="screen" title="no title"/>
-	<link rel="stylesheet" href="<%= ResolveUrl("~/Styles/bootstrap5.min.css??sv=1.0_20221122174321") %>" type="text/css" media="screen" title="no title"/>
-		<link rel="stylesheet" href="<%= ResolveUrl("~/Styles/all.min.css??sv=1.0_20221122174321") %>" type="text/css" media="screen" title="no title"/>  
+		<link rel="stylesheet" href="<%= ResolveUrl("~/Styles/animate.min.css??sv=1.0_20221129105951") %>" type="text/css" media="screen" title="no title"/>
+	<link rel="stylesheet" href="<%= ResolveUrl("~/Styles/bootstrap5.min.css??sv=1.0_20221129105951") %>" type="text/css" media="screen" title="no title"/>
+		<link rel="stylesheet" href="<%= ResolveUrl("~/Styles/all.min.css??sv=1.0_20221129105951") %>" type="text/css" media="screen" title="no title"/>  
 	</telerik:RadCodeBlock>
 </head>
 <body onload="InitializeClient();" id="Form1_body" style="margin-left:auto;margin-right:auto;">
@@ -106,17 +106,17 @@
 		
 
 
-		<script type="text/javascript" src="<%= ResolveUrl("~/JS/jquery.js??sv=1.0_20221122174321") %>" ></script>
-		<script type="text/javascript" src="<%= ResolveUrl("~/JS/jquery.mask.min.js??sv=1.0_20221122174321") %>" ></script>
-		<script type="text/javascript" src="<%= ResolveUrl("~/JS/jquery.mask.global.js??sv=1.0_20221122174321") %>" ></script>
-		<script type="text/javascript" src="<%= ResolveUrl("~/JS/bootstrap5.bundle.min.js??sv=1.0_20221122174321") %>" ></script>
-		<script type="text/javascript" src="<%= ResolveUrl("~/JS/wow.min.js??sv=1.0_20221122174321") %>" ></script>
+		<script type="text/javascript" src="<%= ResolveUrl("~/JS/jquery.js??sv=1.0_20221129105951") %>" ></script>
+		<script type="text/javascript" src="<%= ResolveUrl("~/JS/jquery.mask.min.js??sv=1.0_20221129105951") %>" ></script>
+		<script type="text/javascript" src="<%= ResolveUrl("~/JS/jquery.mask.global.js??sv=1.0_20221129105951") %>" ></script>
+		<script type="text/javascript" src="<%= ResolveUrl("~/JS/bootstrap5.bundle.min.js??sv=1.0_20221129105951") %>" ></script>
+		<script type="text/javascript" src="<%= ResolveUrl("~/JS/wow.min.js??sv=1.0_20221129105951") %>" ></script>
 		<script type="text/javascript"> new WOW().init(); </script>
 		
-		<script type="text/javascript" src="<%= ResolveUrl("~/JS/Common.js??sv=1.0_20221122174321") %>"></script>
-		<script type="text/javascript" src="<%= ResolveUrl("~/JS/Functions.js??sv=1.0_20221122174321") %>"></script>
+		<script type="text/javascript" src="<%= ResolveUrl("~/JS/Common.js??sv=1.0_20221129105951") %>"></script>
+		<script type="text/javascript" src="<%= ResolveUrl("~/JS/Functions.js??sv=1.0_20221129105951") %>"></script>
 
-			<script type="text/javascript" src="<%= ResolveUrl("~/JS/ErrorPage_USER.js??sv=1.0_20221122174321") %>"></script>
+			<script type="text/javascript" src="<%= ResolveUrl("~/JS/ErrorPage_USER.js??sv=1.0_20221129105951") %>"></script>
 		<script type="text/javascript">
 			currentPath = "<%= Page.Request.Path %>";
 		</script>

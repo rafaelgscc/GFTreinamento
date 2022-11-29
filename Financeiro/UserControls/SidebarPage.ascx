@@ -1,7 +1,7 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeFile="SidebarPage.ascx.cs" Inherits="PROJETO.SidebarPage" %>
 <%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
 	<telerik:RadCodeBlock ID="CustomHeaderCodeBlock" runat="server">
-		<link rel="stylesheet" href="0221122174321erência: Nenhuma" type="text/css" media="screen" title="no title" charset="utf-8" />
+		<link rel="stylesheet" href="0221129105950erência: Nenhuma" type="text/css" media="screen" title="no title" charset="utf-8" />
 			<link rel="stylesheet" href="<%= ResolveUrl("~/Styles/Bootstrap_PanelBar_panelbar_default.css")%>" type ="text/css" media="screen" title="no title" charset="utf-8" />
 	</telerik:RadCodeBlock>
 	<asp:HiddenField ID="Sidebar_ClientState" runat="server" />
@@ -23,6 +23,8 @@
 				<Items>
 					<telerik:RadPanelItem id="PanelBarItem1" runat="server" CssClass="c_SidebarPage_PanelBarItem1 c_SidebarPage_PanelBarItem1"
 						Text="<%$ Resources: PanelBarItem1 %>" Value="PanelBarItem1" />
+					<telerik:RadPanelItem id="PanelBarItem17" runat="server" CssClass="c_SidebarPage_PanelBarItem17 c_SidebarPage_PanelBarItem17"
+						Text="<%$ Resources: PanelBarItem17 %>" Value="PanelBarItem17" />
 					<telerik:RadPanelItem id="PanelBarItem12" runat="server" CssClass="c_SidebarPage_PanelBarItem12 c_SidebarPage_PanelBarItem12"
 						Text="<%$ Resources: PanelBarItem12 %>" Value="PanelBarItem12" />
 					<telerik:RadPanelItem id="PanelBarItem13" runat="server" CssClass="c_SidebarPage_PanelBarItem13 c_SidebarPage_PanelBarItem13"
@@ -33,6 +35,8 @@
 						Text="<%$ Resources: PanelBarItem16 %>" Value="PanelBarItem16" />
 					<telerik:RadPanelItem id="PanelBarItem15" runat="server" CssClass="c_SidebarPage_PanelBarItem15 c_SidebarPage_PanelBarItem15"
 						Text="<%$ Resources: PanelBarItem15 %>" Value="PanelBarItem15" />
+					<telerik:RadPanelItem id="PanelBarItem18" runat="server" CssClass="c_SidebarPage_PanelBarItem18 c_SidebarPage_PanelBarItem18"
+						Text="<%$ Resources: PanelBarItem18 %>" Value="PanelBarItem18" />
 					<telerik:RadPanelItem id="PanelBarItem11" runat="server" CssClass="c_SidebarPage_PanelBarItem11 c_SidebarPage_PanelBarItem11"
 						Text="<%$ Resources: PanelBarItem11 %>" Value="PanelBarItem11" />
 				</Items>
@@ -50,6 +54,9 @@
 					case "PanelBarItem1":
 						___PanelBarItem1_OnClick(sender, args);
 					break;
+					case "PanelBarItem17":
+						___PanelBarItem17_OnClick(sender, args);
+					break;
 					case "PanelBarItem12":
 						___PanelBarItem12_OnClick(sender, args);
 					break;
@@ -65,6 +72,9 @@
 					case "PanelBarItem15":
 						___PanelBarItem15_OnClick(sender, args);
 					break;
+					case "PanelBarItem18":
+						___PanelBarItem18_OnClick(sender, args);
+					break;
 					case "PanelBarItem11":
 						___PanelBarItem11_OnClick(sender, args);
 					break;
@@ -75,6 +85,11 @@
 		{
 			var UrlPage = '<%= ResolveUrl("~/home") %>';
 			NavigateBrowser(UrlPage);
+		}
+		function ___PanelBarItem17_OnClick(sender, args)
+		{
+			var UrlPage = '<%= ResolveUrl("~/lista-correntista") %>';
+			Navigate(UrlPage, false);
 		}
 		function ___PanelBarItem12_OnClick(sender, args)
 		{
@@ -99,6 +114,11 @@
 		function ___PanelBarItem15_OnClick(sender, args)
 		{
 			var UrlPage = '<%= ResolveUrl("~/lista-grupo-de-conta") %>';
+			Navigate(UrlPage, false);
+		}
+		function ___PanelBarItem18_OnClick(sender, args)
+		{
+			var UrlPage = '<%= ResolveUrl("~/configuracoes") %>';
 			Navigate(UrlPage, false);
 		}
 		function ___PanelBarItem11_OnClick(sender, args)

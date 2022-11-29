@@ -128,7 +128,7 @@ namespace PROJETO
 
 		private void Page_PreRenderComplete(object sender, EventArgs e)
 		{
-			UserControlsHelper.RegisterCss(this.Page, "~/Styles/Header.css?sv=1.0_20221122174321");
+			UserControlsHelper.RegisterCss(this.Page, "~/Styles/Header.css?sv=1.0_20221129105950");
 		}
 
 		public void ShowFormulas()

@@ -1,0 +1,10 @@
+/* RadCheckBox style: */ 
+
+.RadButton.checkbox-secondary.rbCheckBox .rbIcon {
+    margin: 0 10px 0 0 !important;
+}
+
+.RadCheckBox.checkbox-secondary span.rbIcon::before {
+	font-size: 1.4rem !important;
+	color: #337AB7;
+}

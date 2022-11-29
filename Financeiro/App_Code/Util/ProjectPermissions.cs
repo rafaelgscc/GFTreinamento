@@ -19,6 +19,46 @@ namespace PROJETO
 		{
 			_permissions = new Dictionary<string, Dictionary<string, string>>();
 
+			// Permissões para página: ~/Pages/TB_CONFIGURACOES.aspx
+			_permissions["34753"] = new Dictionary<string, string>();
+			_permissions["34753"]["$TITLE$"] =  "Configurações";
+			_permissions["34753"]["$NAME$"] =  "TB_CONFIGURACOES";
+			_permissions["34753"]["$ALLOW_VIEW$"] = "Permitir visualização";
+			_permissions["34753"]["$ALLOW_INSERT$"] = "Permitir inclusão";
+			_permissions["34753"]["$ALLOW_UPDATE$"] = "Permitir edição";
+			_permissions["34753"]["$ALLOW_DELETE$"] = "Permitir exclusão";
+			
+			// Permissões customizadas para: Modulo: 34753 (DataPageModule) - Controle: Form1
+			
+
+			// Permissões para página: ~/Pages/TB_CORRENTISTA.aspx
+			_permissions["34752"] = new Dictionary<string, string>();
+			_permissions["34752"]["$TITLE$"] =  "Detalhes de Correntista";
+			_permissions["34752"]["$NAME$"] =  "TB_CORRENTISTA";
+			_permissions["34752"]["$ALLOW_VIEW$"] = "Permitir visualização";
+			_permissions["34752"]["$ALLOW_INSERT$"] = "Permitir inclusão";
+			_permissions["34752"]["$ALLOW_UPDATE$"] = "Permitir edição";
+			_permissions["34752"]["$ALLOW_DELETE$"] = "Permitir exclusão";
+			
+			// Permissões customizadas para: Modulo: 34752 (DataPageModule) - Controle: Form1
+			
+
+			// Permissões para página: ~/Pages/TB_CORRENTISTA_Grid.aspx
+			_permissions["34751"] = new Dictionary<string, string>();
+			_permissions["34751"]["$TITLE$"] =  "Lista de Correntista";
+			_permissions["34751"]["$NAME$"] =  "TB_CORRENTISTA_Grid";
+			_permissions["34751"]["$ALLOW_VIEW$"] = "Permitir visualização";
+			_permissions["34751"]["$ALLOW_INSERT$"] = "Permitir inclusão";
+			_permissions["34751"]["$ALLOW_UPDATE$"] = "Permitir edição";
+			_permissions["34751"]["$ALLOW_DELETE$"] = "Permitir exclusão";
+			
+			// Permissões customizadas para: Modulo: 34751 (DataPageModule) - Controle: Form1
+			
+			// Permissões customizadas para Grid_TB_CORRENTISTA
+			_permissions["34751"]["$3994$"] = "Grid_TB_CORRENTISTA";
+			_permissions["34751"]["$3994$.$ALLOW_VIEW$"] = "Permitir visualizar dados em " + _permissions["34751"]["$3994$"];
+			
+
 			// Permissões para página: ~/Pages/TB_GRUPO_CONTA.aspx
 			_permissions["34748"] = new Dictionary<string, string>();
 			_permissions["34748"]["$TITLE$"] =  "Detalhes de Grupo de conta";

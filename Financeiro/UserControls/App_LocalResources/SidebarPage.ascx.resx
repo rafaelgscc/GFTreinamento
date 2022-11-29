@@ -120,6 +120,9 @@
   <data name="PanelBarItem1" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="PanelBarItem17" xml:space="preserve">
+    <value>Correntista</value>
+  </data>
   <data name="PanelBarItem12" xml:space="preserve">
     <value>Controle de acesso</value>
   </data>
@@ -134,6 +137,9 @@
   </data>
   <data name="PanelBarItem15" xml:space="preserve">
     <value>Grupos de Contas</value>
+  </data>
+  <data name="PanelBarItem18" xml:space="preserve">
+    <value>Configurações</value>
   </data>
   <data name="PanelBarItem11" xml:space="preserve">
     <value>Sair</value>

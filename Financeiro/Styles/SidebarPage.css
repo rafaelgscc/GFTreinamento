@@ -166,6 +166,32 @@ Media query for XS resolution
 	-webkit-text-fill-color: unset;
 }
 
+.c_SidebarPage_PanelBarItem17
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_SidebarPage_PanelBarItem17 .rpText::before
+{
+	background-image: none;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	color: #000000;
+	content: '\f2c1';
+	font-family: 'Font Awesome 5 Free';
+	font-size: 16px;
+	font-weight: 900;
+	margin-right: 10px;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
 .c_SidebarPage_PanelBarItem12
 {
 	border-bottom-left-radius: 0px;
@@ -288,6 +314,32 @@ Media query for XS resolution
 	border-top-right-radius: 0px;
 	color: #000000;
 	content: '\f653';
+	font-family: 'Font Awesome 5 Free';
+	font-size: 16px;
+	font-weight: 900;
+	margin-right: 10px;
+	-webkit-background-clip: unset;
+	-webkit-text-fill-color: unset;
+}
+
+.c_SidebarPage_PanelBarItem18
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_SidebarPage_PanelBarItem18 .rpText::before
+{
+	background-image: none;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	color: #000000;
+	content: '\f013';
 	font-family: 'Font Awesome 5 Free';
 	font-size: 16px;
 	font-weight: 900;

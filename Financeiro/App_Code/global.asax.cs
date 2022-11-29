@@ -38,6 +38,9 @@ namespace PROJETO
 		void RegisterRoutes(RouteCollection routes)
 		{
 			routes.MapPageRoute("root", "", "~/Pages/HomeAspx.aspx", false);
+			routes.MapPageRoute("TB_CONFIGURACOES", "configuracoes", "~/Pages/TB_CONFIGURACOES.aspx", false);
+			routes.MapPageRoute("TB_CORRENTISTA", "correntista/{ParamAcao}/{ParamCOR_ID}", "~/Pages/TB_CORRENTISTA.aspx", false, new RouteValueDictionary { { "ParamCOR_ID", string.Empty } });
+			routes.MapPageRoute("TB_CORRENTISTA_Grid", "lista-correntista", "~/Pages/TB_CORRENTISTA_Grid.aspx", false);
 			routes.MapPageRoute("TB_GRUPO_CONTA", "grupo-de-conta/{ParamAcao}/{ParamGC_ID}", "~/Pages/TB_GRUPO_CONTA.aspx", false, new RouteValueDictionary { { "ParamGC_ID", string.Empty } });
 			routes.MapPageRoute("TB_GRUPO_CONTA_Grid", "lista-grupo-de-conta", "~/Pages/TB_GRUPO_CONTA_Grid.aspx", false);
 			routes.MapPageRoute("TB_CONTA", "conta/{ParamAcao}", "~/Pages/TB_CONTA.aspx", false);

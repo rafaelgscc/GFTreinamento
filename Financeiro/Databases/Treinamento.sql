@@ -42,8 +42,16 @@ IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id('TB_CENTRO_DE_CUSTO') A
 DROP TABLE [TB_CENTRO_DE_CUSTO]
 GO
 
+IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id('TB_CONFIGURACOES') AND sysstat & 0xf = 3)
+DROP TABLE [TB_CONFIGURACOES]
+GO
+
 IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id('TB_CONTA') AND sysstat & 0xf = 3)
 DROP TABLE [TB_CONTA]
+GO
+
+IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id('TB_CORRENTISTA') AND sysstat & 0xf = 3)
+DROP TABLE [TB_CORRENTISTA]
 GO
 
 IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id('TB_GRUPO_CONTA') AND sysstat & 0xf = 3)
@@ -123,6 +131,22 @@ GO
 
 /*------------------------------------------------------------*/
 /*    Criação de Tabelas, Indices e Atribuição de Default    */
+/*        TB_CONFIGURACOES        */
+/*------------------------------------------------------------*/
+
+ CREATE TABLE [TB_CONFIGURACOES](
+	[CONFIG_ID]                            bigint               IDENTITY(1,1) NOT NULL,
+	[CONFIG_CONTA_TRANSF_PADRAO]           bigint               NOT NULL,
+	[CONFIG_CARTEIRA_PADRAO]               bigint               NULL
+		CONSTRAINT [PK_TB_CONFIGURACOES] PRIMARY KEY NONCLUSTERED
+		(
+			[CONFIG_ID]
+		) WITH FILLFACTOR = 90
+)
+GO
+
+/*------------------------------------------------------------*/
+/*    Criação de Tabelas, Indices e Atribuição de Default    */
 /*    TB_CONTA    */
 /*------------------------------------------------------------*/
 
@@ -130,6 +154,29 @@ GO
 	[CT_ID]                                varchar (10)         NOT NULL,
 	[CT_NOME]                              nvarchar (100)       NOT NULL,
 	[GC_ID]                                bigint               DEFAULT 0 NOT NULL
+)
+GO
+
+/*------------------------------------------------------------*/
+/*    Criação de Tabelas, Indices e Atribuição de Default    */
+/*       TB_CORRENTISTA       */
+/*------------------------------------------------------------*/
+
+ CREATE TABLE [TB_CORRENTISTA](
+	[COR_ID]                               bigint               IDENTITY(1,1) NOT NULL,
+	[COR_NOME]                             nvarchar (100)       NOT NULL,
+	[COR_CPF]                              varchar (14)         NULL,
+	[COR_FISICA]                           bit                  NOT NULL,
+	[COR_CNPJ]                             varchar (18)         NULL,
+	[COR_JURIDICA]                         bit                  NOT NULL,
+	[COR_ENDERECO]                         varchar (100)        NULL,
+	[COR_BAIRRO]                           varchar (100)        NULL,
+	[COR_CIDADE]                           varchar (100)        NULL,
+	[COR_EMAIL]                            varchar (100)        NULL
+		CONSTRAINT [PK_TB_CORRENTISTA] PRIMARY KEY CLUSTERED
+		(
+			[COR_ID]
+		) WITH FILLFACTOR = 90
 )
 GO
 
